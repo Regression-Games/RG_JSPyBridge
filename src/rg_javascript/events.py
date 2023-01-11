@@ -185,5 +185,5 @@ class EventLoop:
                         del self.requests[r]
                         lock.set()  # release, allow calling thread to resume
                         barrier.wait()
-                 except Exception as err:
+                except Exception as err:
                     print(f"Error occurred in Python to JS IPC bridge: {err}", file=sys.stderr)
