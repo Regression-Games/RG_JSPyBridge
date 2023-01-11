@@ -1,4 +1,4 @@
-include src/javascript/js/bridge.js
-include src/javascript/js/pyi.js
-include src/javascript/js/deps.js
-include src/javascript/js/errors.js
+include src/rg_javascript/js/bridge.js
+include src/rg_javascript/js/pyi.js
+include src/rg_javascript/js/deps.js
+include src/rg_javascript/js/errors.js
